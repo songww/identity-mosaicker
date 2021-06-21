@@ -3,7 +3,7 @@ name = "identity-mosaicker"
 version = "0.0.1"
 description = "身份证脱敏工具"
 authors = ["songww <sww4718168@gmail.com>"]
-license = "MIT"
+license = "MIT or Apache-2.0"
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -22,5 +22,5 @@ matplotlib = "^3.4"
 cli = ["fire"]
 
 [build-system]
-requires = ["poetry>=1"]
-build-backend = "poetry.masonry.api"
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
